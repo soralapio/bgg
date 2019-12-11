@@ -1,0 +1,37 @@
+.empty-container{
+    width: 100%;
+}
+.boardgamelist{
+    background-color: #5FBFF9;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2.4rem;
+    z-index: 1;
+}
+
+.header {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.normalText {
+    font-family: Oswald;
+    color: #FFFFF2;
+    letter-spacing: 0.05em;
+}
+
+@media only screen and (max-width: 1080px)
+{
+.header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}    
+}

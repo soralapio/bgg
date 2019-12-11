@@ -1,0 +1,41 @@
+.selected{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    max-width: 75px;
+    max-height: 25px;
+    width: auto;
+    height: auto;
+    position: relative;
+    margin: 10px;
+    padding: 5px;
+    border: 2px solid rgba(0,150,255,0.91);
+    -webkit-border-radius: 10px;
+    font-family: Oswald, sans-serif;
+    color: rgba(255,255,255,1);
+    text-align: center;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: rgba(52,120,229,1);
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) ;
+    box-shadow: 3px 3px 4px 0 rgba(0,0,0,0.4) ;
+  }
+
+.notSelected{
+  max-width: 125px;
+  max-height: 50px;
+  width: auto;
+  height: auto;
+  margin: 10px;
+  padding: 5px;
+  font-family: Roboto;
+  color: rgba(255,255,255,1);
+  vertical-align: middle;
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: rgba(52,120,229,1);
+  -webkit-box-shadow: 2px 2px 3px 0 rgba(0,0,0,0.4) ;
+  box-shadow: 2px 2px 3px 0 rgba(0,0,0,0.4) ;
+}

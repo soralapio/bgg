@@ -1,0 +1,150 @@
+.boardgame {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  max-height: 600px;
+  min-height: 300px;
+  width: 66.7%;
+  margin-bottom: 30px;
+  font: normal 14px/1 "Times New Roman", Times, serif;
+  color: snow;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: #FFFFF2;
+  -webkit-box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+  box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+  z-index: 5;
+}
+
+.image {
+  max-width: 50px;
+  height: auto;
+  margin: 5px;
+  position: absolute;
+}
+
+.thumbnail {
+  max-width: 150px;
+  height: auto;
+  width: auto;
+}
+
+.title-bar {
+  height: 75px;
+  background-color: #5863F8;
+}
+
+.title-text {
+  font-family: "Oswald", sans-serif;
+  padding-left: 155px;
+  padding-top: 5px;
+  color: #FFFFF2;
+  letter-spacing: 0.05em;
+}
+
+.information-container {
+  background-color: #FFFFF2;
+}
+
+.information-text {
+  color: black;
+  font-family: "Oswald", sans-serif;
+  padding-top: 10px;
+  padding-left: 100px;
+
+}
+
+.tags {
+  background-color: #FFFFF2;
+  padding-left: 10px;
+  padding-top: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+
+@media only screen and (max-width: 1079px)
+{
+  .boardgame {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    max-height: 600px;
+    min-height: 300px;
+    width: 100%;
+    margin: 10px;
+    margin-bottom: 30px;
+    font: normal 14px/1 "Times New Roman", Times, serif;
+    color: snow;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #FFFFF2;
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+    z-index: 5;
+  }
+
+  .thumbnail {
+    max-width: 100px;
+    height: auto;
+    width: auto;
+  }
+  
+  .title-bar {
+    height: 75px;
+    background-color: #5863F8;
+  }
+  
+  .title-text {
+    font-family: "Oswald", sans-serif;
+    padding-left: 105px;
+    padding-top: 5px;
+    color: #FFFFF2;
+    letter-spacing: 0.05em;
+  }
+  
+}
+
+@media only screen and (min-width: 1081px) and (max-width: 1599px)
+{
+  .boardgame {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    max-height: 600px;
+    min-height: 300px;
+    width: 40%;
+    margin: 10px;
+    margin-bottom: 30px;
+    font: normal 14px/1 "Times New Roman", Times, serif;
+    color: snow;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #FFFFF2;
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+    z-index: 5;
+  }
+}
+
+@media only screen and (min-width: 1600px)
+{
+  .boardgame {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    max-height: 600px;
+    min-height: 300px;
+    width: 29.7%;
+    margin: 10px;
+    font: normal 14px/1 "Times New Roman", Times, serif;
+    color: snow;
+    -o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    background: #FFFFF2;
+    -webkit-box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+    box-shadow: 3px 3px 4px 0 rgba(0, 0, 0, 0.4);
+    z-index: 5;
+  }
+}

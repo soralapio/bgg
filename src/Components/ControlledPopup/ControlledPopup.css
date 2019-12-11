@@ -1,0 +1,20 @@
+.normal-text{
+    font-family: Oswald;
+    color: #171D1C;
+    letter-spacing: 0.05em;
+}
+
+.normal-button{
+    padding: 5px;
+}
+
+.modal{
+    width: 100%;
+    justify-content: center;
+}
+
+.header {
+    font-family: Oswald;
+    color: #171D1C;
+    letter-spacing: 0.05em;
+}
